@@ -31,6 +31,9 @@ and follow the [style guide](https://github.com/kanagawa-community/.github/blob/
 Do not sample colors from screenshots or add new ones. Every change must work in
 Wave, Dragon, and Lotus.
 
+To read the colors from a script, use the machine-readable
+[palette.json](https://raw.githubusercontent.com/kanagawa-community/.github/main/palette.json).
+
 ## Working on this port
 
 {{DEVELOPMENT_INSTRUCTIONS}}

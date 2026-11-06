@@ -107,6 +107,8 @@ Setting up a new port from this template:
 ## Palette
 
 {{PALETTE_DETAILS}}
+Link the shared palette and list only the colors this port maps in its own way.
+Do not copy the palette tables.
 -->
 
 <!--
