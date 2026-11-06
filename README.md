@@ -1,7 +1,8 @@
 <!-- Replace placeholders. APPLICATION_URL should point to the app's website, or its repository if no site exists. -->
 <!--
 Setting up a new port from this template:
-1. Replace every {{PLACEHOLDER}} in README.md, LICENSE, and cog.toml.
+1. Replace every {{PLACEHOLDER}} in README.md, CONTRIBUTING.md, LICENSE, and
+   cog.toml.
 2. Ports based on another project keep that project's license notice in LICENSE
    next to their own, and credit it in the header below.
 3. You do not need to tag or protect the repository. Organization maintainers
@@ -121,8 +122,7 @@ WCAG claims unless verified.
 Report bugs and request changes in this port's
 [issue tracker](ISSUES_URL). Contributions are welcome.
 
-<!-- If this repository has a contributing guide, link it here; otherwise remove this comment. -->
-<!-- See [CONTRIBUTING.md](CONTRIBUTING.md). -->
+See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
