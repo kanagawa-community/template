@@ -52,7 +52,7 @@ Setting up a new port from this template:
 
 ## Previews
 
-<!-- Keep screenshots in this port repository. Use comparable application content in each. -->
+<!-- Every port must support and preview all three variants. Keep screenshots in this port repository. Use comparable application content in each. -->
 
 <details>
 <summary>🌊 Wave</summary>
