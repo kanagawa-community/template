@@ -19,15 +19,15 @@ changes are reviewed. This page covers only what is specific to this port.
 - Problems in {{APPLICATION}} itself belong with its maintainers, not here. Start
   from the [application's page]({{APPLICATION_URL}}).
 - Changes to the colors themselves belong in the
-  [shared palette](https://github.com/kanagawa-community/.github/blob/main/PALETTE.md),
+  [shared palette](https://github.com/kanagawa-community/.github/blob/main/docs/PALETTE.md),
   not in this port. Open an issue in the
   [.github repository](https://github.com/kanagawa-community/.github/issues)
   so every port stays in step.
 
 ## Colors
 
-Take colors from the shared [palette](https://github.com/kanagawa-community/.github/blob/main/PALETTE.md)
-and follow the [style guide](https://github.com/kanagawa-community/.github/blob/main/STYLE-GUIDE.md).
+Take colors from the shared [palette](https://github.com/kanagawa-community/.github/blob/main/docs/PALETTE.md)
+and follow the [style guide](https://github.com/kanagawa-community/.github/blob/main/docs/STYLE-GUIDE.md).
 Do not sample colors from screenshots or add new ones. Every change must work in
 Wave, Dragon, and Lotus.
 
