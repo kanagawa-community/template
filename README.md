@@ -8,7 +8,8 @@ Setting up a new port from this template:
 3. You do not need to tag or protect the repository. Organization maintainers
    add the branch rules, the description, and the topics when the port is
    adopted, and they make releases.
-4. Delete this comment.
+4. Replace the placeholder images in assets/ (see Previews below).
+5. Delete this comment.
 -->
 <img align="left" src="https://raw.githubusercontent.com/kanagawa-community/.github/main/assets/branding/logo.png" alt="Kanagawa logo" width="200">
 
@@ -53,8 +54,11 @@ Setting up a new port from this template:
 
 ## Previews
 
-<!-- Every port must support and preview all three variants. Keep screenshots in this port repository. Use comparable application content in each. -->
-<!-- Shell ports render one static image per variant instead: see https://github.com/kanagawa-community/.github/blob/main/docs/PREVIEWS.md -->
+<!-- Every port must support and preview all three variants. Keep screenshots in this port repository, and use comparable application content in each. The images in assets/ are placeholders: replace all four. -->
+<!-- Terminal-based ports render the three variant images instead of taking them: see https://github.com/kanagawa-community/.github/blob/main/docs/PREVIEWS.md -->
+<!-- showcase.png stacks the three variant images. Build it with scripts/compose-showcase.sh from https://github.com/kanagawa-community/.github, and keep the variant images in assets/screenshots/. -->
+
+![Windows showing {{APPLICATION}} with Kanagawa Lotus, Dragon, and Wave](assets/showcase.png)
 
 <details>
 <summary>🌊 Wave</summary>
