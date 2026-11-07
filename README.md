@@ -54,6 +54,7 @@ Setting up a new port from this template:
 ## Previews
 
 <!-- Every port must support and preview all three variants. Keep screenshots in this port repository. Use comparable application content in each. -->
+<!-- Shell ports render one static image per variant instead: see https://github.com/kanagawa-community/.github/blob/main/PREVIEWS.md -->
 
 <details>
 <summary>🌊 Wave</summary>
