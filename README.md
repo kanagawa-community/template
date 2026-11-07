@@ -6,8 +6,8 @@ Setting up a new port from this template:
 2. Ports based on another project keep that project's license notice in LICENSE
    next to their own, and credit it in the header below.
 3. You do not need to tag or protect the repository. Organization maintainers
-   add the 0.1.0 baseline tag, the branch rules, and the description and topics
-   when the port is adopted.
+   add the branch rules, the description, and the topics when the port is
+   adopted, and they make releases.
 4. Delete this comment.
 -->
 <img align="left" src="https://raw.githubusercontent.com/kanagawa-community/.github/main/assets/branding/logo.png" alt="Kanagawa logo" width="200">
