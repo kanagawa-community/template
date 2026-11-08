@@ -1,8 +1,10 @@
 <!-- Replace placeholders. APPLICATION_URL should point to the app's website, or its repository if no site exists. -->
 <!--
 Setting up a new port from this template:
-1. Replace every {{PLACEHOLDER}} in README.md, CONTRIBUTING.md, LICENSE, and
-   cog.toml.
+1. Replace every {{PLACEHOLDER}} in README.md, CONTRIBUTING.md, LICENSE,
+   cog.toml, and install.sh. In install.sh, items() prints each file or folder a
+   variant installs and the folder it goes in. Delete install.sh and uninstall.sh
+   when a plugin manager installs the port instead.
 2. Ports based on another project keep that project's license notice in LICENSE
    next to their own, and credit it in the header below.
 3. You do not need to tag or protect the repository. Organization maintainers
@@ -83,6 +85,10 @@ Setting up a new port from this template:
 ## Installation
 
 {{INSTALLATION_INSTRUCTIONS}}
+
+`./install.sh` installs all three variants. Name the ones you want instead, for
+example `./install.sh dragon lotus`. Run it again after `git pull` to update.
+`./uninstall.sh` takes the same names and removes them.
 
 ## Usage
 
