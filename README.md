@@ -6,7 +6,9 @@ Setting up a new port from this template:
    variant installs and the folder it goes in. Delete install.sh and uninstall.sh
    when a plugin manager installs the port instead.
 2. Ports based on another project keep that project's license notice in LICENSE
-   next to their own, and credit it in the header below.
+   next to their own, and credit it in the header below. Add one paragraph per
+   credit. The badges have their own row under the header, so any number of
+   credit lines works.
 3. You do not need to tag or protect the repository. Organization maintainers
    add the branch rules, the description, and the topics when the port is
    adopted, and they make releases.
@@ -26,8 +28,10 @@ Setting up a new port from this template:
 <p>Based on <a href="{{SOURCE_URL}}">{{SOURCE_NAME}}</a> by <a href="{{AUTHOR_URL}}">{{AUTHOR_NAME}}</a>.</p>
 -->
 
+<br clear="both">
+
 <!-- Wave accents: carpYellow, crystalBlue, autumnRed. Lotus accents: lotusYellow, lotusBlue4, lotusRed. -->
-<p>
+<p align="center">
   <a href="https://github.com/kanagawa-community/{{REPOSITORY}}/stargazers">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/stars/kanagawa-community/{{REPOSITORY}}?style=for-the-badge&amp;labelColor=1F1F28&amp;color=E6C384">
@@ -51,7 +55,6 @@ Setting up a new port from this template:
   </a>
 </p>
 
-<br clear="both">
 <br>
 
 ## Previews
