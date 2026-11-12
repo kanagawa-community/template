@@ -58,7 +58,7 @@ Setting up a new port from this template:
 
 <!-- Every port must support and preview all three variants. Keep screenshots in this port repository, and use comparable application content in each. The images in assets/ are placeholders: replace all four. -->
 <!-- Terminal-based ports render the three variant images instead of taking them: see https://github.com/kanagawa-community/.github/blob/main/docs/PREVIEWS.md -->
-<!-- showcase.png stacks the three variant images. Build it with scripts/compose-showcase.sh from https://github.com/kanagawa-community/.github, and keep the variant images in assets/screenshots/. -->
+<!-- showcase.png stacks the three variant images. Build it and the social preview with scripts/finish-previews.sh from https://github.com/kanagawa-community/.github (terminal ports: scripts/render-previews.sh with a scripts/preview.sh hook; ports with a real window: scripts/capture-windows.sh with a scripts/window.sh hook), and keep the variant images in assets/screenshots/. -->
 
 ![Windows showing {{APPLICATION}} with Kanagawa Lotus, Dragon, and Wave](assets/showcase.png)
 
