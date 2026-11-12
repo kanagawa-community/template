@@ -8,8 +8,8 @@
 
 # Type: `boolean: false` (optional)
 # Whether to only consider commits since the latest SemVer tag. Without any tag
-# `cog bump` fails with "unable to get any tag", so a port's first release passes
-# `--version` to scripts/release.sh.
+# `cog bump` fails with "unable to get any tag", so scripts/release.sh releases a
+# port's first version as 1.0.0 without asking cog.
 from_latest_tag = true
 
 # Type: `string` (optional)
